@@ -1,2 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.item {
+  flex: 0 0 calc(20% - 20px); /* 20% width with 20px spacing between items */
+  margin: 10px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
